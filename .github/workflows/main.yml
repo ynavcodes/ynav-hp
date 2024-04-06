@@ -14,6 +14,5 @@ jobs:
         server: ssh.strato.de
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        protocol: ftps
         port: 22
         server-dir: f746ee6aee545db98f2939666a4dbe26/
