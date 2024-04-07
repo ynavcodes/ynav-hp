@@ -30,9 +30,12 @@
 
 .social-link {
   fill: rgb(108, 117, 125);
-  width: 50px;
 }
 
 .social-link:hover{
   fill: #44833c;
+}
+
+.social-svg {
+  width: 50px;
 }
