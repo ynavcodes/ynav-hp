@@ -2,6 +2,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
+@import url('../bootstrap/css/bootstrap.css');
+
 ::selection {   background-color: #44833c; color: #FFF;}
 
 * {
@@ -24,4 +26,13 @@
 
 :root {
   --bs-body-bg: #0c0e0f;
+}
+
+.social-link {
+  fill: rgb(108, 117, 125);
+  width: 50px;
+}
+
+.social-link:hover{
+  fill: #44833c;
 }
